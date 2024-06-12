@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- OGPなど -->
+    <title>会社概要 - START</title>
+    <meta name="description" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- ファビコン -->
+    <link rel="icon" href="./images/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      href="./images/apple-touch-icon.png"
+      sizes="180x180"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Material icon -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- CDNでjQueryを読み込み -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- 自作JSの読み込み -->
+    <script src="./js/main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container">
+        <img src="./images/logo.svg" alt="START" class="header__logo" />
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="index.html" class="header__link">ホーム</a>
+            </li>
+            <li class="header__item">
+              <a href="message.html" class="header__link">メッセージ</a>
+            </li>
+            <li class="header__item">
+              <a href="company.html" class="header__link js-active">会社概要</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="hamburger-button">
+          <span class="hamburger-button__line"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Page header -->
+    <div class="page-header">
+      <h1 class="page-header__title">会社概要</h1>
+    </div>
+
+    <main class="page-container width-container">
+      <!-- Company info -->
+      <div class="company-info">
+        <table class="company-info__table">
+          <tbody class="info-table">
+            <tr class="info-table__row">
+              <th class="info-table__head">社名</th>
+              <td class="info-table__data">株式会社START</td>
+            </tr>
+            <tr class="info-table__row">
+              <th class="info-table__head">設立</th>
+              <td class="info-table__data">2025.02.10</td>
+            </tr>
+            <tr class="info-table__row">
+              <th class="info-table__head">代表取締役</th>
+              <td class="info-table__data">ショーン・デイビット・ジュニア</td>
+            </tr>
+            <tr class="info-table__row">
+              <th class="info-table__head">資本金</th>
+              <td class="info-table__data">10,000,000円</td>
+            </tr>
+            <tr class="info-table__row">
+              <th class="info-table__head">所在地</th>
+              <td class="info-table__data">
+                〒555-5555 東京都千代田区 スタートビルディング 606
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <iframe
+        class="company-info__map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196460.8330195488!2d140.8318523945313!3d39.7014371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f857633a9371ab5%3A0xe2098467afff7c95!2z55ub5bKh6aeF!5e0!3m2!1sja!2sjp!4v1718127683865!5m2!1sja!2sjp"
+        
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="company-info__map-link-wrapper">
+        <a  class="company-info__map-link" href="#" target="_blank">Google mapで見る</a>
+      </div>
+      </div>
+
+      <!-- Company news -->
+      <div class="company-news">
+        <ul class="company-news__list">
+          <li class="company-news__item">
+            <time datetime="2030-02-10" class="company-news__date"
+              >2030.02.10</time
+            >
+            <a href="#" class="company-news__link"
+              >コーポレートサイトをリニューアルしました。</a
+            >
+          </li>
+          <li class="company-news__item">
+            <time datetime="2030-02-08" class="company-news__date"
+              >2030.02.08</time
+            >
+            <a href="#" class="company-news__link"
+              >採用を強化中です！一緒に働きませんか？</a
+            >
+          </li>
+          <li class="company-news__item">
+            <time datetime="2030-02-02" class="company-news__date"
+              >2030.02.02</time
+            >
+            <a href="#" class="company-news__link"
+              >人材紹介SNS『スタート』をリリースしました。3/31まで新規登録キャンペーンを開催中です！サービス内で使える500ポイントをプレゼント！</a
+            >
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container width-container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">ホーム</a>
+          </li>
+          <li class="footer__item">
+            <a href="message.html" class="footer__link">メッセージ</a>
+          </li>
+          <li class="footer__item">
+            <a href="company.html" class="footer__link">会社概要</a>
+          </li>
+        </ul>
+        <small class="footer__copyright">&copy; START</small>
+      </div>
+    </footer>
+  </body>
+</html>
